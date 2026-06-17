@@ -1,4 +1,6 @@
 @import "tailwindcss";
+/* 限定 TailwindCSS 只扫描 src/ 目录，防止扫描 .next/ 和 node_modules/ 触发编译死循环 */
+@source "../../src/**/*.{ts,tsx}";
 
 @theme inline {
   --color-background: var(--background);
