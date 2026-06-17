@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import { prisma } from "@/lib/prisma";
 import { getSession } from "@/lib/auth";
 import { CartItemsList } from "./CartItemsList";
+import { CartSync } from "./CartSync";
 import { Button } from "@/components/ui/Button";
 import { EmptyState } from "@/components/ui/EmptyState";
 
@@ -26,6 +27,9 @@ export default async function CartPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6">
       <h1 className="mb-8 text-2xl font-bold text-gray-900">购物车</h1>
+
+      {/* 客户端购物车与服务端同步 */}
+      <CartSync serverItems={items} />
 
       {items.length === 0 ? (
         <EmptyState

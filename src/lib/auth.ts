@@ -105,3 +105,15 @@ export async function clearSession(): Promise<void> {
   const cookieStore = await cookies();
   cookieStore.delete(TOKEN_NAME);
 }
+
+/** 校验当前用户为 ADMIN，否则返回 403 错误响应 */
+export async function requireAdmin() {
+  const session = await getSession();
+  if (!session) {
+    return { authorized: false as const, response: Response.json({ error: "请先登录" }, { status: 401 }) };
+  }
+  if (session.role !== "ADMIN") {
+    return { authorized: false as const, response: Response.json({ error: "无权限" }, { status: 403 }) };
+  }
+  return { authorized: true as const, userId: session.userId };
+}
