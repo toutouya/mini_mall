@@ -4,7 +4,7 @@ import { CategoryNav } from "@/components/shop/CategoryNav";
 import { SearchBar } from "@/components/shop/SearchBar";
 import { Pagination } from "@/components/shop/Pagination";
 
-const PAGE_SIZE = 9;
+const PAGE_SIZE = 12;
 
 interface HomePageProps {
   searchParams: Promise<{

@@ -51,7 +51,7 @@ async function main() {
       description:
         "高品质无线蓝牙耳机，支持主动降噪，续航长达 30 小时。舒适的入耳式设计，IPX5 防水等级，适合运动佩戴。",
       price: 299.0,
-      imageUrl: "https://images.unsplash.com/photo-1590658268037-6bf12f032f55?w=400&h=400&fit=crop",
+      imageUrl: "https://placehold.co/400x400/3b82f6/ffffff?text=Bluetooth+Earbuds",
       stock: 100,
       categoryId: catMap.electronics,
     },
@@ -61,7 +61,7 @@ async function main() {
       description:
         "全天候健康监测，GPS 定位，50 米防水。支持心率、血氧、睡眠监测，续航 14 天。",
       price: 599.0,
-      imageUrl: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop",
+      imageUrl: "https://placehold.co/400x400/1e293b/f8fafc?text=Smart+Watch",
       stock: 50,
       categoryId: catMap.electronics,
     },
@@ -71,7 +71,7 @@ async function main() {
       description:
         "超大容量 20000mAh 便携充电宝，支持 PD 快充，同时充 3 台设备。轻薄机身，随身携带方便。",
       price: 149.0,
-      imageUrl: "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=400&h=400&fit=crop",
+      imageUrl: "https://placehold.co/400x400/f59e0b/ffffff?text=Power+Bank",
       stock: 200,
       categoryId: catMap.electronics,
     },
@@ -81,7 +81,7 @@ async function main() {
       description:
         "87 键紧凑布局，Cherry MX 青轴，全键 RGB 背光。PBT 键帽，铝合金面板，USB-C 接口。",
       price: 399.0,
-      imageUrl: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400&h=400&fit=crop",
+      imageUrl: "https://placehold.co/400x400/7c3aed/ffffff?text=Mechanical+Keyboard",
       stock: 80,
       categoryId: catMap.electronics,
     },
@@ -92,7 +92,7 @@ async function main() {
       description:
         "100% 优质纯棉面料，舒适透气。经典圆领设计，简约百搭。多色可选。",
       price: 79.0,
-      imageUrl: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop",
+      imageUrl: "https://placehold.co/400x400/f43f5e/ffffff?text=Cotton+T-Shirt",
       stock: 300,
       categoryId: catMap.clothing,
     },
@@ -102,7 +102,7 @@ async function main() {
       description:
         "加绒保暖，柔软亲肤。宽松版型，适合日常穿着。连帽设计，前袋鼠口袋。",
       price: 199.0,
-      imageUrl: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400&h=400&fit=crop",
+      imageUrl: "https://placehold.co/400x400/8b5cf6/ffffff?text=Casual+Hoodie",
       stock: 150,
       categoryId: catMap.clothing,
     },
@@ -112,7 +112,7 @@ async function main() {
       description:
         "弹力牛仔面料，修身版型。经典五袋设计，适合日常通勤和休闲场合。",
       price: 249.0,
-      imageUrl: "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?w=400&h=400&fit=crop",
+      imageUrl: "https://placehold.co/400x400/2563eb/ffffff?text=Slim+Jeans",
       stock: 120,
       categoryId: catMap.clothing,
     },
@@ -123,7 +123,7 @@ async function main() {
       description:
         "全面讲解 TypeScript 类型系统、高级技巧与实战应用。从基础到高级，覆盖泛型、装饰器、声明文件等核心内容。",
       price: 69.0,
-      imageUrl: "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=400&fit=crop",
+      imageUrl: "https://placehold.co/400x400/0891b2/ffffff?text=TypeScript",
       stock: 500,
       categoryId: catMap.books,
     },
@@ -133,7 +133,7 @@ async function main() {
       description:
         "从零开始用 React 构建完整项目，涵盖 Hooks、状态管理、路由、测试等核心主题。",
       price: 59.0,
-      imageUrl: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=400&fit=crop",
+      imageUrl: "https://placehold.co/400x400/0ea5e9/ffffff?text=React+Guide",
       stock: 400,
       categoryId: catMap.books,
     },
@@ -143,7 +143,7 @@ async function main() {
       description:
         "23 种经典设计模式的通俗解读，配合大量实战案例，助你写出可扩展、可维护的优秀代码。",
       price: 79.0,
-      imageUrl: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&h=400&fit=crop",
+      imageUrl: "https://placehold.co/400x400/059669/ffffff?text=Design+Patterns",
       stock: 350,
       categoryId: catMap.books,
     },
@@ -154,7 +154,7 @@ async function main() {
       description:
         "极简北欧设计，三档色温调节，无频闪 LED 光源。适合书房、卧室使用。",
       price: 129.0,
-      imageUrl: "https://images.unsplash.com/photo-1507473885765-e6ed057ab6fe?w=400&h=400&fit=crop",
+      imageUrl: "https://placehold.co/400x400/fbbf24/1e293b?text=Table+Lamp",
       stock: 80,
       categoryId: catMap.home,
     },
@@ -164,7 +164,7 @@ async function main() {
       description:
         "高硼硅玻璃材质，双层隔热设计。防烫手，保温保冷。350ml 容量，适合咖啡和茶。",
       price: 49.0,
-      imageUrl: "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=400&h=400&fit=crop",
+      imageUrl: "https://placehold.co/400x400/06b6d4/ffffff?text=Glass+Cup",
       stock: 250,
       categoryId: catMap.home,
     },
@@ -174,7 +174,7 @@ async function main() {
       description:
         "三件装收纳盒，环保 PP 材质，可叠加使用。适合衣物、玩具、杂物分类收纳。",
       price: 89.0,
-      imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=400&h=400&fit=crop",
+      imageUrl: "https://placehold.co/400x400/d97706/ffffff?text=Storage+Box",
       stock: 180,
       categoryId: catMap.home,
     },

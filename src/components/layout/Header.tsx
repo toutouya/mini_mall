@@ -41,8 +41,19 @@ export function Header() {
           {user === undefined ? (
             <span className="h-6 w-16 animate-pulse rounded bg-gray-100" />
           ) : user ? (
-            <div className="flex items-center gap-2">
-              <span className="text-sm text-gray-600">{user.name}</span>
+            <div className="flex items-center gap-3">
+              <Link
+                href="/orders"
+                className="text-sm text-gray-600 hover:text-primary transition-colors"
+              >
+                我的订单
+              </Link>
+              <Link
+                href="/profile"
+                className="text-sm text-gray-600 hover:text-primary transition-colors"
+              >
+                {user.name}
+              </Link>
               <button
                 onClick={handleLogout}
                 className="text-xs text-gray-400 hover:text-gray-600"

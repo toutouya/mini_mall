@@ -1,7 +1,7 @@
 import { type NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 
-const PAGE_SIZE = 9;
+const PAGE_SIZE = 12;
 
 /**
  * GET /api/products
